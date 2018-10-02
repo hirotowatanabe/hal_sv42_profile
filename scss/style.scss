@@ -3,10 +3,11 @@
 
 .profile-body {
     background-color: $blackColor01;
+    padding: 50px;
 }
 
 .profile-header {
-    padding: 50px;
+    margin-bottom: 50px;
 
     &__title {
         margin-bottom: 20px;
@@ -21,8 +22,6 @@
 }
 
 .profile-main {
-    padding: 50px;
-
     &__section {
         &:not(:last-child) {
             margin-bottom: 30px;
@@ -30,7 +29,12 @@
     }
 
     &__name {
+        line-height: 50px;
         font-size: 30px;
+        color: $whiteColor01;
+    }
+
+    &__info {
         color: $whiteColor01;
     }
 }

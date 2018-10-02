@@ -73,10 +73,11 @@ h1, h2, h3, h4, h5, h6, div, li, input, p, span, a {
 
 .profile-body {
   background-color: #333;
+  padding: 50px;
 }
 
 .profile-header {
-  padding: 50px;
+  margin-bottom: 50px;
 }
 .profile-header__title {
   margin-bottom: 20px;
@@ -88,13 +89,14 @@ h1, h2, h3, h4, h5, h6, div, li, input, p, span, a {
   color: #ccc;
 }
 
-.profile-main {
-  padding: 50px;
-}
 .profile-main__section:not(:last-child) {
   margin-bottom: 30px;
 }
 .profile-main__name {
+  line-height: 50px;
   font-size: 30px;
+  color: #fff;
+}
+.profile-main__info {
   color: #fff;
 }
